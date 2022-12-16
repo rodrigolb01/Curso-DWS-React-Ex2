@@ -20,7 +20,7 @@ const PostsList = () => {
   }
 
   return (
-    <div className='container'>
+    <div>
       <div className='searchBar'>
         <input value={keyword} onChange={onKeywordChangeHandle} placeholder="search keyword"></input>
       </div>
